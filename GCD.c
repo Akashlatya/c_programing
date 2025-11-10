@@ -17,5 +17,5 @@ int gcd(int a, int b)
     if (rem == 0)
         return b;
     else
-        return ( gcd(b , rem));
+        return  gcd(b , rem);
 }
